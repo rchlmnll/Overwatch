@@ -30,13 +30,9 @@ Elevated Token: Yes == %%1842
 
 # HandOver Notes
 ```
-Tenant:
-Alert type:
-Alert #:
-Remarks:
-Actions Taken:
-Actions to be taken:
-Reference:
+Summary of current status/inquiry (what is the specific problem the customer requesting)?
+What have I done/tested so far?
+What is the expected outcome?
 ```
 
 # Partner call request
