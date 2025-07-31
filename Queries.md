@@ -63,3 +63,8 @@ Reason for calling:
 ```
 This is a recurring alert and requires validation, but it is not urgent. Please call during business hours.
 ```
+
+# Persistence
+```
+"<>" && (eventid: 4698 || eventid: 4702 || eventid: 4657)
+```
