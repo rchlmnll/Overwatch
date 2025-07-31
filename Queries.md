@@ -37,6 +37,8 @@ What is the expected outcome?
 
 # Partner call request
 ```
+Partner call request
+
 Hello Black Team, 
 
 Partner: 
@@ -55,4 +57,9 @@ Alert Summary:
 
 
 Reason for calling:
+```
+
+# Recurring
+```
+This is a recurring alert and requires validation, but it is not urgent. Please call during business hours.
 ```
