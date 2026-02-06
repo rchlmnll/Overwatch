@@ -30,6 +30,18 @@ Elevated Token: Yes == %%1842
 
 ####  User Authentication / Login (Entra ID Sign‑in Logs)
 ```
+source_country_code: TW
+```
+
+```
+source_region_name: New Mexico
+```
+
+```
+auditlogs: true
+```
+
+```
 action: "UserLoggedIn"
 ```
 
