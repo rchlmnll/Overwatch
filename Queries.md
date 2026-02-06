@@ -30,11 +30,16 @@ Elevated Token: Yes == %%1842
 
 ####  User Authentication / Login (Entra ID Sign‑in Logs)
 ```
-action: "UserLoggedIn"```
+action: "UserLoggedIn"
+```
 
-```action: "UserLoginFailed"```
+```
+action: "UserLoginFailed"
+```
 
-```action: "InteractiveSignIn"```
+```
+action: "InteractiveSignIn"
+```
 
 ```action: "NonInteractiveSignIn"```
 
