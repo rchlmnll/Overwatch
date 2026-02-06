@@ -41,136 +41,275 @@ action: "UserLoginFailed"
 action: "InteractiveSignIn"
 ```
 
-```action: "NonInteractiveSignIn"```
+```
+action: "NonInteractiveSignIn"
+```
 
-```action: "ServicePrincipalSignIn"```
+```
+action: "ServicePrincipalSignIn"
+```
 
-```logCategory: "SignInLogs"```
+```
+logCategory: "SignInLogs"
+```
 
-```authenticationRequirement: "multiFactorAuthentication"```
+```
+authenticationRequirement: "multiFactorAuthentication"
+```
 
-```authenticationRequirement: "singleFactorAuthentication"```
+```
+authenticationRequirement: "singleFactorAuthentication"
+```
 
-```status: "Success"```
+```
+status: "Success"
+```
 
-```status: "Failure"```
+```
+status: "Failure"
+```
 
-```errorCode: "0"```
-```errorCode: "50126"        // Invalid credentials```
-```errorCode: "50076"        // MFA required```
-```errorCode: "50074"        // MFA challenge failed```
+```
+errorCode: "0"
+```
+```
+errorCode: "50126"        // Invalid credentials
+```
+```
+errorCode: "50076"        // MFA required
+```
+```
+errorCode: "50074"        // MFA challenge failed
+```
 
-```conditionalAccessStatus: "success"```
-```conditionalAccessStatus: "failure"```
-```conditionalAccessStatus: "notApplied"```
+```
+conditionalAccessStatus: "success"
+```
+```
+conditionalAccessStatus: "failure"
+```
+```
+conditionalAccessStatus: "notApplied"
+```
 
-```clientAppUsed: "Browser"```
-```clientAppUsed: "Mobile Apps and Desktop clients"```
-```clientAppUsed: "Exchange ActiveSync"```
+```
+clientAppUsed: "Browser"
+```
+```
+clientAppUsed: "Mobile Apps and Desktop clients"
+```
+```
+clientAppUsed: "Exchange ActiveSync"
+```
 
-```resource: "Microsoft 365"```
-```resource: "Azure Portal"```
-```resource: "SharePoint Online"```
+```
+resource: "Microsoft 365"
+```
+```
+resource: "Azure Portal"
+```
+```
+resource: "SharePoint Online"
+```
 
-```riskLevelAggregated: "low"```
-```riskLevelAggregated: "medium"```
-```riskLevelAggregated: "high"```
+```
+riskLevelAggregated: "low"
+```
+```
+riskLevelAggregated: "medium"
+```
+```
+riskLevelAggregated: "high"
+```
 
 ####  SharePoint Online & OneDrive Access (Unified Audit Log)
 ```
 workload: "SharePoint"
+```
+```
 recordType: "SharePointFileOperation"
-
+```
+```
 action: "FileAccessed"
+```
 action: "FileDownloaded"
+```
 action: "FileUploaded"
+```
 action: "FileDeleted"
+```
 action: "FileModified"
+```
 action: "FilePreviewed"
-
+```
 action: "FolderCreated"
+```
 action: "FolderDeleted"
-
+```
+```
 action: "SharingSet"
+```
 action: "SharingInvitationCreated"
+```
 action: "AnonymousLinkCreated"
+```
 action: "AnonymousLinkUsed"
-
+```
 objectType: "File"
+```
 objectType: "Folder"
-
+```
 accessType: "User"
+```
+```
 accessType: "Anonymous"
+```
 accessType: "ExternalUser"
+```
 ```
 
 ####  Email Access & Exchange Online Activity
 ```
 workload: "Exchange"
+```
+```
 recordType: "ExchangeAdmin"
+```
+```
 recordType: "ExchangeItem"
-
+```
+```
 action: "MailItemsAccessed"
+```
+```
 action: "MessageBind"
+```
+```
 action: "Send"
+```
+```
 action: "SendOnBehalf"
+```
+```
 action: "SendAs"
-
+```
+```
 action: "MailboxLogin"
+```
+```
 action: "MailboxLoginFailed"
-
+```
+```
 action: "Set-Mailbox"
+```
+```
 action: "New-InboxRule"
+```
+```
 action: "Set-InboxRule"
+```
+```
 action: "Remove-InboxRule"
-
+```
+```
 logonType: "Owner"
+```
+```
 logonType: "Delegate"
+```
+```
 logonType: "Admin"
-
+```
+```
 clientInfo: "Outlook"
+```
+```
 clientInfo: "OWA"
+```
+```
 clientInfo: "Exchange Web Services"
+```
+```
 clientInfo: "IMAP4"
+```
+```
 clientInfo: "POP3"
 ```
 
 ####  Other Application & Cloud App Access
 ```
 logCategory: "AuditLogs"
-
+```
+```
 action: "AddServicePrincipal"
+```
+```
 action: "ConsentGranted"
+```
+```
 action: "AddAppRoleAssignment"
+```
+```
 action: "RemoveAppRoleAssignment"
-
+```
+```
 action: "UpdateApplication"
+```
+```
 action: "DeleteApplication"
-
+```
+```
 resourceType: "Application"
+```
+```
 resourceType: "ServicePrincipal"
-
+```
+```
 appDisplayName: "Microsoft Teams"
+```
+```
 appDisplayName: "Salesforce"
+```
+```
 appDisplayName: "Zoom"
+```
 ```
 
 ####  High‑Value Fields Commonly Used in SOC Detections
 ```
 userPrincipalName: "user@domain.com"
+```
+```
 userId: "GUID"
+```
+```
 ipAddress: "x.x.x.x"
+```
+```
 location: "PH"
+```
+```
 location: "US"
+```
+```
 location: "Unknown"
-
+```
+```
 deviceDetail: "Windows"
+```
+```
 deviceDetail: "iOS"
+```
+```
 deviceDetail: "Android"
-
+```
+```
 correlationId: "GUID"
+```
+```
 requestId: "GUID"
-
+```
+```
 userAgent: "Mozilla/5.0"
 ```
 
