@@ -30,40 +30,46 @@ Elevated Token: Yes == %%1842
 
 ####  User Authentication / Login (Entra ID Sign‑in Logs)
 ```
-action: "UserLoggedIn"
-action: "UserLoginFailed"
-action: "InteractiveSignIn"
-action: "NonInteractiveSignIn"
-action: "ServicePrincipalSignIn"
+action: "UserLoggedIn"```
 
-logCategory: "SignInLogs"
-authenticationRequirement: "multiFactorAuthentication"
-authenticationRequirement: "singleFactorAuthentication"
+```action: "UserLoginFailed"```
 
-status: "Success"
-status: "Failure"
+```action: "InteractiveSignIn"```
 
-errorCode: "0"
-errorCode: "50126"        // Invalid credentials
-errorCode: "50076"        // MFA required
-errorCode: "50074"        // MFA challenge failed
+```action: "NonInteractiveSignIn"```
 
-conditionalAccessStatus: "success"
-conditionalAccessStatus: "failure"
-conditionalAccessStatus: "notApplied"
+```action: "ServicePrincipalSignIn"```
 
-clientAppUsed: "Browser"
-clientAppUsed: "Mobile Apps and Desktop clients"
-clientAppUsed: "Exchange ActiveSync"
+```logCategory: "SignInLogs"```
 
-resource: "Microsoft 365"
-resource: "Azure Portal"
-resource: "SharePoint Online"
+```authenticationRequirement: "multiFactorAuthentication"```
 
-riskLevelAggregated: "low"
-riskLevelAggregated: "medium"
-riskLevelAggregated: "high"
-```
+```authenticationRequirement: "singleFactorAuthentication"```
+
+```status: "Success"```
+
+```status: "Failure"```
+
+```errorCode: "0"```
+```errorCode: "50126"        // Invalid credentials```
+```errorCode: "50076"        // MFA required```
+```errorCode: "50074"        // MFA challenge failed```
+
+```conditionalAccessStatus: "success"```
+```conditionalAccessStatus: "failure"```
+```conditionalAccessStatus: "notApplied"```
+
+```clientAppUsed: "Browser"```
+```clientAppUsed: "Mobile Apps and Desktop clients"```
+```clientAppUsed: "Exchange ActiveSync"```
+
+```resource: "Microsoft 365"```
+```resource: "Azure Portal"```
+```resource: "SharePoint Online"```
+
+```riskLevelAggregated: "low"```
+```riskLevelAggregated: "medium"```
+```riskLevelAggregated: "high"```
 
 ####  SharePoint Online & OneDrive Access (Unified Audit Log)
 ```
