@@ -410,6 +410,11 @@ requestId: "GUID"
 userAgent: "Mozilla/5.0"
 ```
 
+
+# Exfiltration
+```
+"scp" || "sftp" || "ssh" || "pscp" || "plink" || "putty" ||  "winscp" || "WinSCP" ||  "ftp" || "ftp.exe" || "ftps" ||  "curlftp" || "curl--ftp" || "wgetftp" ||  "lftp" || "ncftp"
+```
 ==========================================
 ==========================================
 
